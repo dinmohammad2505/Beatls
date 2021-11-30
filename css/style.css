@@ -1,0 +1,1300 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clr {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.full_wrapper {
+	width: 100%;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* =============================================================
+Common CSS Ends
+================================================================ */
+
+.mr_20 {
+	margin-right: 20px;
+}
+
+.mr_15 {
+	margin-right: 15px;
+}
+
+.mb_20 {
+	margin-bottom: 20px;
+}
+
+.mb_15 {
+	margin-bottom: 15px;
+}
+
+
+.mx_20 {
+	margin-right: 0 20px;
+}
+
+/* =============================================================
+Common class Ends
+================================================================ */
+
+
+@font-face {
+	font-family: 'opensans_reg';
+	src: url(../webfonts/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'oswald_reg';
+	src: url(../webfonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'oswald_bold';
+	src: url(../webfonts/oswald/Oswald-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'oswald_medium';
+	src: url(../webfonts/oswald/Oswald-Medium.ttf);
+}
+
+/* =============================================================
+Font import
+================================================================ */
+
+
+.heading {
+	text-align: center;
+	position: relative;
+
+}
+
+.heading h3 {
+	font-family: 'oswald_medium';
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #353535;
+
+}
+
+.heading .line {
+	position: absolute;
+	top: 22px;
+
+}
+
+.heading span {
+	height: 1px;
+	background: #0872b9;
+	display: inline-block;
+}
+
+
+.heading .line1 {
+	width: 47px;
+}
+
+.heading .line2 {
+	width: 3px;
+}
+
+.heading .line3 {
+	width: 2px;
+}
+
+.heading .line4 {
+	width: 1px;
+}
+
+
+
+/* =============================================================
+Heading css ends
+================================================================ */
+
+
+
+/* =============================================================
+Header css start
+================================================================ */
+
+
+.header_bg {
+	height: 32px;
+	background-color: #0872b9;
+
+}
+
+.header_bg .header {
+	height: 32px;
+
+}
+
+.header_bg .header .header_text {
+	width: 720px;
+	height: 32px;
+	float: left;
+}
+
+.header_bg .header .header_text p {
+	font-family: 'opensans_reg';
+	font-size: 14px;
+	color: #e7e7e7;
+	line-height: 32px;
+	text-transform: capitalize;
+}
+
+.header_bg .header .header_social {
+	width: 220px;
+	height: 32px;
+	float: left;
+}
+
+.header_bg .header .header_social ul {
+	float: right;
+}
+
+.header_bg .header .header_social ul li {
+	float: left;
+}
+
+.header_bg .header .header_social ul li a i {
+	margin-left: 25px;
+	color: #e7e7e7;
+	transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.header_bg .header .header_social ul li a i:hover {
+	color: #353535;
+}
+
+/* =============================================================
+Header css ends
+================================================================ */
+
+/* =============================================================
+Menu css start
+================================================================ */
+
+.menu_bg {
+	height: 80px;
+}
+
+.menu_bg .menu {
+	height: 80px;
+
+}
+
+.menu_bg .menu .logo {
+	height: 80px;
+	width: 80px;
+	float: left;
+}
+
+.menu_bg .menu .logo img {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.menu_bg .menu .menu_list {
+	height: 80px;
+	width: 860px;
+	float: left;
+}
+
+.menu_bg .menu .menu_list ul {
+	float: right;
+}
+
+.menu_bg .menu .menu_list ul li {
+	float: left;
+}
+
+.menu_bg .menu .menu_list ul li a {
+	padding-left: 17px;
+	line-height: 80px;
+	font-family: 'opensans_reg';
+	font-size: 14px;
+	color: #353535;
+	text-transform: capitalize;
+	transition: all linear 0.4s;
+}
+
+.menu_bg .menu .menu_list ul li a:hover {
+	color: #0872b9;
+}
+
+
+/* =============================================================
+Menu css ends
+================================================================ */
+
+
+/* =============================================================
+Banner css start
+================================================================ */
+
+.banner_bg {
+	height: 400px;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.banner_bg::after {
+	content: '';
+	height: 400px;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.banner_bg .banner {
+	height: 400px;
+	text-align: right;
+	color: #fff;
+}
+
+.banner_bg .banner h2 {
+	padding-top: 78px;
+	font-family: 'oswald_reg';
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.banner_bg .banner h1 {
+	margin-top: -7px;
+	font-family: 'oswald_bold';
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.banner_bg .banner p {
+	padding: 12px 0px 0px 480px;
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	text-transform: capitalize;
+	line-height: 24px;
+}
+
+.banner_bg .banner a {
+	height: 31px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	margin-top: 24px;
+	margin-left: 15px;
+	color: #fff;
+	display: inline-block;
+	line-height: 31px;
+	padding: 0 18px;
+	font-family: 'oswald_medium';
+	font-size: 14px;
+	transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+
+}
+
+.banner_bg .banner a:hover {
+	background-color: #0872b9;
+	border-color: #0872b9;
+
+}
+
+
+/* =============================================================
+Banner css ends
+================================================================ */
+
+
+/* =============================================================
+About css start
+================================================================ */
+
+
+.about_bg {
+	height: 330px;
+}
+
+.about_bg .about {
+	height: 330px;
+}
+
+.about_bg .about .about_heading {
+	height: 65px;
+	width: 940px;
+}
+
+
+.about_bg .about .about_heading .line {
+	left: 423px;
+
+}
+
+.about_bg .about .about_content {
+	height: 265px;
+	width: 940px;
+}
+
+.about_bg .about .about_content .content_images {
+	width: 380px;
+	height: 265px;
+	float: left;
+}
+
+.about_bg .about .about_content .content_images img {
+	width: 100%;
+}
+
+.about_bg .about .about_content .content_text {
+	width: 540px;
+	height: 265px;
+	float: left;
+}
+
+
+.about_bg .about .about_content .content_text p {
+	line-height: 24px;
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	color: #555;
+	text-transform: capitalize;
+	padding-top: 35px;
+
+}
+
+.about_bg .about .about_content .content_text p:nth-of-type(2) {
+	padding-top: -15px;
+}
+
+
+/* =============================================================
+About css ends
+================================================================ */
+
+
+
+/* =============================================================
+Service css starts
+================================================================ */
+
+
+.service_bg {
+	height: 260px;
+	margin-top: 60px;
+}
+
+.service_bg .service {
+	height: 260px;
+}
+
+.service_bg .service .service_heading {
+	height: 55px;
+}
+
+.service_bg .service .service_heading .line {
+	left: 404px;
+}
+
+.service_bg .service .service_content {
+	height: 205px;
+	width: 100%;
+}
+
+.service_bg .service .service_content .service_item1 {
+	width: 300px;
+	height: 166px;
+	background-color: #f1f1f1;
+	float: left;
+	margin-top: 39px;
+	position: relative;
+	text-align: center;
+	transition: all linear 0.4s;
+}
+
+.service_bg .service .service_content .service_item1:hover {
+	box-shadow: -1px 1px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service_bg .service .service_content .service_item1 .service_icon {
+	height: 73px;
+	width: 73px;
+	background-color: #f1f1f1;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	top: -36.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	transition: all linear 0.4s;
+	z-index: 5;
+
+}
+
+.service_bg .service .service_content .service_item1:hover .service_icon {
+	background-color: #5bc5f4;
+}
+
+
+.service_bg .service .service_content .service_item1 .service_shadow {
+	height: 81px;
+	width: 81px;
+	background-color: gray;
+	border: 4px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	top: -40.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 3;
+	transition: all linear 0.4s;
+
+}
+
+.service_bg .service .service_content .service_item1:hover .service_shadow {
+	background-color: #5bc5f4;
+
+}
+
+.service_bg .service .service_content .service_item1 .service_icon img {
+	padding-top: 15px;
+}
+
+.service_bg .service .service_content .service_item1 h4 {
+	color: #353535;
+	text-transform: uppercase;
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.service_bg .service .service_content .service_item1 p {
+	color: #555;
+	display: inline-block;
+	text-transform: capitalize;
+	line-height: 24px;
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	padding: 5px 10px 20px 10px;
+}
+
+
+
+
+
+
+
+.service_bg .service .service_content .service_item2 {
+	width: 300px;
+	height: 166px;
+	background-color: #f1f1f1;
+	float: left;
+	margin-top: 39px;
+	position: relative;
+	transition: all linear 0.4s;
+}
+
+.service_bg .service .service_content .service_item2:hover {
+	box-shadow: -1px 1px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service_bg .service .service_content .service_item2 .service_icon {
+	height: 73px;
+	width: 73px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	position: absolute;
+	top: -36.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	transition: all linear 0.4s;
+	z-index: 5;
+}
+
+.service_bg .service .service_content .service_item2:hover .service_icon {
+	background-color: #5bc5f4;
+}
+
+
+.service_bg .service .service_content .service_item2 .service_shadow {
+	height: 81px;
+	width: 81px;
+	background-color: gray;
+	border: 4px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	top: -40.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 3;
+	transition: all linear 0.4s;
+
+}
+
+.service_bg .service .service_content .service_item2:hover .service_shadow {
+	background-color: #5bc5f4;
+
+}
+
+.service_bg .service .service_content .service_item2 .service_icon img {
+	padding-top: 15px;
+}
+
+.service_bg .service .service_content .service_item2 h4 {
+	color: #353535;
+	text-transform: uppercase;
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.service_bg .service .service_content .service_item2 p {
+	width: 280px;
+	color: #555;
+	display: inline-block;
+	text-transform: capitalize;
+	line-height: 24px;
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	text-align: center;
+	padding: 5px 10px 20px 10px;
+}
+
+
+.service_bg .service .service_content .service_item3 {
+	width: 300px;
+	height: 166px;
+	background-color: #f1f1f1;
+	float: left;
+	margin-top: 39px;
+	position: relative;
+	transition: all linear 0.4s;
+}
+
+.service_bg .service .service_content .service_item3:hover {
+	box-shadow: -1px 1px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service_bg .service .service_content .service_item3 .service_icon {
+	height: 73px;
+	width: 73px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	position: absolute;
+	top: -36.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 5;
+	transition: all linear 0.4s;
+}
+
+.service_bg .service .service_content .service_item3:hover .service_icon {
+	background-color: #5bc5f4;
+}
+
+.service_bg .service .service_content .service_item3 .service_shadow {
+	height: 81px;
+	width: 81px;
+	background-color: gray;
+	border: 4px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	top: -40.5px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 3;
+	transition: all linear 0.4s;
+
+}
+
+.service_bg .service .service_content .service_item3:hover .service_shadow {
+	background-color: #5bc5f4;
+
+}
+
+.service_bg .service .service_content .service_item3 .service_icon img {
+	padding-top: 15px;
+}
+
+.service_bg .service .service_content .service_item3 h4 {
+	color: #353535;
+	text-transform: uppercase;
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.service_bg .service .service_content .service_item3 p {
+	width: 280px;
+	color: #555;
+	display: inline-block;
+	text-transform: capitalize;
+	line-height: 24px;
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	text-align: center;
+	padding: 5px 10px 20px 10px;
+}
+
+
+/* =============================================================
+Service css ends
+================================================================ */
+
+
+
+/* =============================================================
+portfolio css ends
+================================================================ */
+
+.portfolio_bg {
+	height: 600px;
+	margin-top: 60px;
+}
+
+.portfolio_bg .portfolio {
+	height: 600px;
+}
+
+.portfolio_bg .portfolio .portfolio_heading {
+	height: 60px;
+}
+
+.portfolio_bg .portfolio .portfolio_heading .line {
+	left: 395px;
+}
+
+.portfolio_bg .portfolio .portfolio_content {
+	height: 540px;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 {
+	width: 220px;
+	height: 540px;
+	float: left;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item {
+	width: 220px;
+	position: relative;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item img {
+	width: 100%;
+
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item .portfolio_overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all linear 0.4s;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item:hover .portfolio_overlay {
+	opacity: 1;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item .portfolio_overlay .port_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col1 .portfolio_item .portfolio_overlay a i {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+
+}
+
+
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 {
+	width: 220px;
+	height: 540px;
+	float: left;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item {
+	width: 220px;
+	position: relative;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item img {
+	width: 100%;
+
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item .portfolio_overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all linear 0.4s;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item:hover .portfolio_overlay {
+	opacity: 1;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item .portfolio_overlay .port_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col2 .portfolio_item .portfolio_overlay a i {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+
+}
+
+
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 {
+	width: 220px;
+	height: 540px;
+	float: left;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item {
+	width: 220px;
+	position: relative;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item img {
+	width: 100%;
+
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item .portfolio_overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all linear 0.4s;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item:hover .portfolio_overlay {
+	opacity: 1;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item .portfolio_overlay .port_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col3 .portfolio_item .portfolio_overlay a i {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+
+}
+
+
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 {
+	width: 220px;
+	height: 540px;
+	float: left;
+}
+
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item {
+	width: 220px;
+	position: relative;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item img {
+	width: 100%;
+
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item .portfolio_overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all linear 0.4s;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item:hover .portfolio_overlay {
+	opacity: 1;
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item .portfolio_overlay .port_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.portfolio_bg .portfolio .portfolio_content .portfolio_col4 .portfolio_item .portfolio_overlay a i {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+
+}
+
+
+/* =============================================================
+portfolio css ends
+================================================================ */
+
+
+/* =============================================================
+team css Starts
+================================================================ */
+
+.team_bg {
+	height: 380px;
+	margin-top: 60px;
+}
+
+.team_bg .team {
+	height: 380px;
+}
+
+.team_bg .team .team_heading {
+	height: 60px;
+}
+
+.team_bg .team .team_heading .line {
+	left: 422px;
+}
+
+.team_bg .team .team_member {
+	width: 220px;
+	float: left;
+	text-align: center;
+}
+
+
+.team_bg .team .team_member .team_images img {
+	width: 220px;
+}
+
+.team_bg .team .team_member .team_images {
+	position: relative;
+	overflow: hidden;
+	transition: all linear 0.4s;
+}
+
+.team_bg .team .team_member:hover .team_images {
+	box-shadow: -1px 1px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.team_bg .team .team_member .team_images .team_overlay {
+	width: 80px;
+	height: 100%;
+	float: right;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	right: -80px;
+	transition: all linear 0.4s;
+
+}
+
+.team_bg .team .team_member:hover .team_images .team_overlay {
+	right: 0px;
+}
+
+.team_bg .team .team_member .team_images .team_overlay ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translatex(-50%) translateY(-50%);
+}
+
+.team_bg .team .team_member .team_images .team_overlay ul li {
+	margin-bottom: 15px;
+}
+
+.team_bg .team .team_member .team_images .team_overlay ul li:last-child {
+	margin-bottom: 0;
+}
+
+.team_bg .team .team_member .team_images .team_overlay ul li a i {
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	transition: all linear 0.4s;
+}
+
+.team_bg .team .team_member .team_images .team_overlay ul li:hover a i {
+	background-color: #5bc5f4;
+	border-color: #5bc5f4;
+}
+
+
+.team_bg .team .team_member:hover h4 {
+	color: #5bc5f4;
+}
+
+
+.team_bg .team .team_member h4 {
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	color: #353535;
+	text-transform: uppercase;
+	transition: all linear 0.4s;
+}
+
+
+.team_bg .team .team_member p {
+	font-family: 'oswald_reg';
+	font-size: 14px;
+	color: #555555;
+	text-transform: capitalize;
+}
+
+
+
+
+/* =============================================================
+team css ends
+================================================================ */
+
+
+/* =============================================================
+testimonial css Starts
+================================================================ */
+
+
+.testimonial_bg {
+	height: 350px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.testimonial_bg .testimonial {
+	height: 350px;
+}
+
+.testimonial_bg .testimonial .testimonial_heading {
+	height: 55px;
+}
+
+.testimonial_bg .testimonial .testimonial_heading .line {
+	left: 410px;
+}
+
+.testimonial_bg .testimonial .testimonial_content {
+	height: 295px;
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item {
+	height: 295px;
+	width: 460px;
+	float: left;
+	text-align: center;
+
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item img {
+	margin-top: 10px;
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text {
+	height: 180px;
+	width: 460px;
+	background-color: #f1f1f1;
+	margin-top: 35px;
+	position: relative;
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text .shap {
+	height: 30px;
+	width: 30px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text h3 {
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #353535;
+	padding-top: 13px;
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text .icon {
+	color: #5bc5f4;
+	font-size: 13px;
+	padding-top: 3px;
+}
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text h4 {
+	font-family: 'oswald_reg';
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #555555;
+	padding-top: 3px;
+}
+
+
+.testimonial_bg .testimonial .testimonial_content .testimonial_item .testimonial_text p {
+	font-family: 'oswald_reg';
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #555555;
+	padding: 10px 15px 10px 15px;
+	line-height: 24px;
+}
+
+/* =============================================================
+testimonial css Ends
+================================================================ */
+
+
+
+/* =============================================================
+Footer top Css start
+================================================================ */
+
+.footertop_bg {
+	height: 254px;
+	background-color: #353535;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footertop_bg .footertop {
+	height: 254px;
+	background-color: #353535;
+}
+
+.footertop_bg .footertop .footer_logo {
+	width: 220px;
+	height: 254px;
+	float: left;
+}
+
+
+.footertop_bg .footertop .footer_contact {
+	width: 220px;
+	height: 254px;
+	float: left;
+}
+
+.footertop_bg .footertop .footer_links {
+	width: 140px;
+	height: 254px;
+	float: left;
+}
+
+.footertop_bg .footertop .footer_gallary {
+	width: 300px;
+	height: 254px;
+	float: left;
+}
+
+.footertop_bg .footertop .footer_item .footer_heading {
+	height: 60px;
+	width: 100%;
+
+}
+
+.footertop_bg .footertop .footer_heading h4 {
+	font-family: 'oswald_medium';
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-top: 12px;
+}
+
+
+.footertop_bg .footertop .footer_item ul li {
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footertop_bg .footertop .footer_item .f_logo li:first-child {
+	padding-top: 3px;
+	padding-bottom: 35px;
+}
+
+.footertop_bg .footertop .footer_item .f_contact li {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.footertop_bg .footertop .footer_item .f_contact li:last-child {
+	margin-bottom: 0px;
+}
+
+.footertop_bg .footertop .footer_item .f_contact .footer_icon {
+	position: absolute;
+	top: 7px;
+	left: 0px;
+}
+
+.footertop_bg .footertop .footer_item .f_contact .footer_icon i {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.footertop_bg .footertop .footer_item .f_contact a {
+	color: #fff;
+	display: block;
+	padding-left: 45px;
+}
+
+.footertop_bg .footertop .footer_item .f_links {
+	width: 50%;
+	float: left;
+
+}
+
+.footertop_bg .footertop .footer_item .f_links li {
+	margin-bottom: 20px;
+	line-height: normal;
+}
+
+.footertop_bg .footertop .footer_item .f_links li:last-child {
+	margin-bottom: 0px;
+}
+
+.footertop_bg .footertop .footer_item .f_links a {
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	color: #fff;
+	text-transform: capitalize;
+	transition: all linear 0.4s;
+
+}
+
+.footertop_bg .footertop .footer_item .f_links a:hover {
+	color: #5bc5f4;
+}
+
+.footertop_bg .footertop .footer_item .f_gallary li {
+	width: 90px;
+	float: left;
+}
+
+.footertop_bg .footertop .footer_item .f_gallary li img {
+	width: 100%;
+}
+
+/* =============================================================
+Footer top Css Ends
+================================================================ */
+
+
+.footer_bottom_bg {
+	height: 45px;
+	background-color: #555;
+}
+
+.footer_bottom_bg .footer_bottom p {
+	font-family: 'opensans_reg';
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+
+.footer_bottom_bg .footer_bottom a {
+	color: #5bc5f4;
+}
